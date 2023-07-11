@@ -92,8 +92,9 @@ export default function Home() {
             <div className="basis-1/3 flex-1 ">
               <div className="flex flex-col">
                 <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 truncate overflow-hidden">
-                  App de canciones - Guarda tu cancion favorita!!
+                  Nature Essence - Tu belleza natural merece productos naturales!
                 </p>
+
                 <a href="https://pf-henry-front-ten.vercel.app" target="_blank" rel="noreferrer">
                   <Image
                     className="rounded-lg object-scale-down hover:opacity-100 opacity-80 w-full h-auto"
@@ -107,7 +108,7 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <div className="flex flex-col">
                 <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 truncate overflow-hidden">
-                  Nature Essence - Tu belleza natural merece productos naturales!
+                  App de canciones - Guarda tu cancion favorita!!
                 </p>
                 <a href="https://spotify-clone-azure-delta.vercel.app/" target="_blank" rel="noreferrer">
                   <Image
