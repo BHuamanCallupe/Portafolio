@@ -44,7 +44,7 @@ export default function Home() {
               </li> */}
             </ul>
           </nav>
-          <div className="flex flex-col items-center text-center ">
+          <div className="flex flex-col items-center text-center justify-center">
             <h2 className="text-5xl py-2 text-[#3198DA] font-medium dark:text-[#3198DA] md:text-6xl">
               Benny Huaman
             </h2>
@@ -54,13 +54,13 @@ export default function Home() {
             <p className="text-lg py-3 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl mt-2">
               Poseo habilidades tanto en el front-end como en el back-end, capaz de crear soluciones eficientes y funcionales.
             </p>
-            <div className="text-4xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400  mt-4">
+            <div className="text-4xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 mt-2">
               <a href="https://www.linkedin.com/in/benny-huaman/" target="_blank" rel="noreferrer" ><AiFillLinkedin className="hover:text-sky-400 hover:cursor-pointer row-span-1" /></a>
               <a href="https://github.com/BHuamanCallupe" target="_blank" rel="noreferrer" ><AiFillGithub className="hover:text-yellow-300 hover:cursor-pointer row-span-1" /></a>
               <a href="https://wa.me/987352260/?text=Hola%20Benny.%20Soy..." target="_blank" rel="noreferrer" ><IoLogoWhatsapp className="hover:text-green-500 hover:cursor-pointer" /></a>
               <a href="mailto:benny.fhc@gmail.com?body=Hola%20Benny.%20Soy..." target="_blank" rel="noreferrer" ><BiLogoGmail className="hover:text-red-500 hover:cursor-pointer" /></a>
             </div>
-            <div className="bg-gradient-to-b from-[#3198DA] rounded-full w-80 h-80 relative md:h-96 md:w-96 ">
+            <div className="bg-gradient-to-b from-[#3198DA] rounded-full w-80 h-80 relative md:h-96 md:w-96 mt-5">
               <Image src={deved} layout="fill" objectFit="cover" alt="logofoto" className="rounded-full" />
             </div>
           </div>
