@@ -44,28 +44,28 @@ export default function Home() {
               </li> */}
             </ul>
           </nav>
-          <div className="flex flex-col items-center text-center p-10 py-3">
-            <h2 className="text-3xl py-2 text-[#3198DA] font-medium dark:text-[#3198DA] md:text-6xl">
+          <div className="flex flex-col items-center text-center ">
+            <h2 className="text-5xl py-2 text-[#3198DA] font-medium dark:text-[#3198DA] md:text-6xl">
               Benny Huaman
             </h2>
-            <h3 className="text-lg py-2 dark:text-white md:text-3xl font-medium">
+            <h3 className="text-2xl py-2 dark:text-white md:text-3xl font-medium mt-2">
               Desarrollador Web Full Stack
             </h3>
-            <p className="text-md py-3 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
+            <p className="text-lg py-3 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl mt-2">
               Poseo habilidades tanto en el front-end como en el back-end, capaz de crear soluciones eficientes y funcionales.
             </p>
-            <div className="text-3xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 md:text-5xl">
-              <a href="https://www.linkedin.com/in/benny-huaman/" target="_blank" rel="noreferrer"><AiFillLinkedin className="hover:text-sky-400 hover:cursor-pointer" /></a>
-              <a href="https://github.com/BHuamanCallupe" target="_blank" rel="noreferrer"><AiFillGithub className="hover:text-yellow-300 hover:cursor-pointer" /></a>
-              <a href="https://wa.me/987352260/?text=Hola%20Benny.%20Soy..." target="_blank" rel="noreferrer"><IoLogoWhatsapp className="hover:text-green-500 hover:cursor-pointer" /></a>
-              <a href="mailto:benny.fhc@gmail.com?body=Hola%20Benny.%20Soy..." target="_blank" rel="noreferrer"><BiLogoGmail className="hover:text-red-500 hover:cursor-pointer" /></a>
+            <div className="text-4xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400  mt-4">
+              <a href="https://www.linkedin.com/in/benny-huaman/" target="_blank" rel="noreferrer" ><AiFillLinkedin className="hover:text-sky-400 hover:cursor-pointer row-span-1" /></a>
+              <a href="https://github.com/BHuamanCallupe" target="_blank" rel="noreferrer" ><AiFillGithub className="hover:text-yellow-300 hover:cursor-pointer row-span-1" /></a>
+              <a href="https://wa.me/987352260/?text=Hola%20Benny.%20Soy..." target="_blank" rel="noreferrer" ><IoLogoWhatsapp className="hover:text-green-500 hover:cursor-pointer" /></a>
+              <a href="mailto:benny.fhc@gmail.com?body=Hola%20Benny.%20Soy..." target="_blank" rel="noreferrer" ><BiLogoGmail className="hover:text-red-500 hover:cursor-pointer" /></a>
             </div>
-            <div className="bg-gradient-to-b from-[#3198DA] rounded-full w-80 h-80 relative md:h-96 md:w-96 mt-2">
+            <div className="bg-gradient-to-b from-[#3198DA] rounded-full w-80 h-80 relative md:h-96 md:w-96 ">
               <Image src={deved} layout="fill" objectFit="cover" alt="logofoto" className="rounded-full" />
             </div>
           </div>
         </section>
-        <section className="py-10">
+        <section className="mt-5">
           <div>
             <h3 className="text-lg py-1 dark:text-white mb-5 text-center md:text-3xl">Mis Tecnologías Front-end y Back-end</h3>
             <div className="flex gap-5 flex-wrap justify-center">
@@ -84,17 +84,16 @@ export default function Home() {
           </div>
 
         </section>
-        <section className="py-10">
-          <div>
-            <h3 className="text-lg py-1 dark:text-white md:text-3xl">Proyectos</h3>
+        <section className="py-10 w-full grid grid-flow-row">
+          <div className="row-span-2">
+            <h3 className="text-2xl py-1 dark:text-white md:text-3xl">Proyectos</h3>
           </div>
-          <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap md:flex-row">
-            <div className="basis-1/3 flex-1 ">
+          <div className="grid grid-cols-2 gap-10 md:flex-row flex-wrap row-span-2">
+            <div className="col-span-2 md:col-span-1">
               <div className="flex flex-col">
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 truncate overflow-hidden">
+                <p className="text-lg py-2 leading-8 text-gray-800 dark:text-gray-200 truncate md:text-xl">
                   Nature Essence - Tu belleza natural merece productos naturales!
                 </p>
-
                 <a href="https://pf-henry-front-ten.vercel.app" target="_blank" rel="noreferrer">
                   <Image
                     className="rounded-lg object-scale-down hover:opacity-100 opacity-80 w-full h-auto"
@@ -105,17 +104,17 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="col-span-2 md:col-span-1">
               <div className="flex flex-col">
-                <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 truncate overflow-hidden">
-                  App de canciones - Guarda tu cancion favorita!!
+                <p className="text-lg py-2 leading-8 text-gray-800 dark:text-gray-200 truncate md:text-xl">
+                  App de canciones - Guarda tu cancion favorita!
                 </p>
                 <a href="https://spotify-clone-azure-delta.vercel.app/" target="_blank" rel="noreferrer">
                   <Image
                     className="rounded-lg object-scale-down hover:opacity-100 opacity-80 w-full h-auto"
                     layout="responsive"
                     src={imageSpotifyClone}
-                    alt="Natur Essence"
+                    alt="Nature Essence"
                   />
                 </a>
               </div>
